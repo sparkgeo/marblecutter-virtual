@@ -8,5 +8,5 @@ services:
       - .:/opt/marblecutter/
     ports:
       - "8000:8000"
-    entrypoint: python
+    entrypoint: python3
     command: server.py

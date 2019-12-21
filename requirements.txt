@@ -1,9 +1,8 @@
 cachetools ~= 2.0.0
 flask-cors
-# marblecutter[web] ~= 0.3.1
 https://github.com/mojodna/marblecutter/archive/5b9040b.tar.gz#egg=marblecutter[web]
-rasterio[s3] ~= 1.0
-numpy
+rasterio[s3] ~= 1.1.2
+numpy==1.17.4
 serverless-wsgi
 # temporary workaround for https://github.com/mapbox/rasterio/issues/1651
 mock

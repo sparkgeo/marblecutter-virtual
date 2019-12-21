@@ -3,7 +3,7 @@ from __future__ import absolute_import
 
 import logging
 
-from cachetools.func import lru_cache
+from functools import lru_cache
 from flask import Flask, Markup, jsonify, redirect, render_template, request
 from flask_cors import CORS
 from marblecutter import NoCatalogAvailable, tiling
