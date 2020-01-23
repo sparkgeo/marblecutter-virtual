@@ -4,6 +4,7 @@ services:
     build: .
     environment:
       - PYTHONPATH=.
+      - CURL_CA_BUNDLE=/etc/ssl/certs/ca-certificates.crt
     volumes:
       - .:/opt/marblecutter/
     ports:

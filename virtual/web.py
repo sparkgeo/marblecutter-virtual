@@ -42,6 +42,7 @@ def make_catalog(args):
     try:
         return VirtualCatalog(
             args["url"],
+            alg_name=args.get("alg_name"),
             rgb=args.get("rgb"),
             nodata=args.get("nodata"),
             linear_stretch=args.get("linearStretch"),
